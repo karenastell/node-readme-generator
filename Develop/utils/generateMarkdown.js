@@ -6,31 +6,31 @@ let info =  `
 # ${answers.title}
 # ${answers.badge}
 
-## Table of contents:
-(#Description)
-(#Install Instructions)
-(#Usage Instructions)
-(#License)
-(#Contributors)
-(#Tests)
-(#Contact Information)
+# Table of contents:
+* [Description]
+* [Install Instructions]
+* [Usage Instructions]
+* [License]
+* [Contributors]
+* [Tests]
+* [Contact Information](#Contact-Information)
 
-# Description 
-# ${answers.description}
-# Install Instructions
-# ${answers.install}
-# Usage Instructions
-# ${answers.usage}
-# License
-# ${answers.license}
-# Contributors
-# ${answers.contributors}
-# Tests
-# ${answers.test}
+# Description:
+### ${answers.description}
+# Install Instructions:
+### ${answers.install}
+# Usage Instructions:
+### ${answers.usage}
+# License:
+### ${answers.license}
+# Contributors:
+### ${answers.contributors}
+# Tests:
+### ${answers.test}
 
-# Contact Information
-# ${answers.githubPic}
-# ${answers.email}
+# Contact Information:
+### ${answers.githubPic}
+### ${answers.email}
 
 `;
 
