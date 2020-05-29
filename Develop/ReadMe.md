@@ -1,6 +1,7 @@
 
-# my ttile
-# badge
+![badge](https://camo.githubusercontent.com/2b5c48821f22738887c98a07f95852b610fb555b/68747470733a2f2f696d672e736869656c64732e696f2f61706d2f6c2f61746f6d69632d64657369676e2d75692e7376673f)
+# Awesome App
+
 
 # Table of contents:
 * [Description](#description)
@@ -14,33 +15,33 @@
 # Description:
 
 
- my
+ This is an app that is awesome and does awesome things.
 # Install Instructions:
 
 
- inasf
+ Just open it up.
 # Usage Instructions:
 
 
- asf
+ Use whenever you want to be awesome.
 # License:
 
 
- BSD
+ MIT
 # Contributors:
 
 
- afss
+ I did this on my own!
 # Tests:
 
 
- est
+ All of the awesome ones.
 
 # Contact Information:
 
 
- [!myImage](https://avatars3.githubusercontent.com/u/60358028?s=460&u=a19dca322b378b635d636a589b1a575ed9c19c9f&v=4)
+ ![myImage](https://avatars3.githubusercontent.com/u/60358028?s=460&u=a19dca322b378b635d636a589b1a575ed9c19c9f&v=4)
 
 
- ## Email: <karen@gmail.com>
+ ## Email: <karenastell@gmail.com>
 

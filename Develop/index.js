@@ -42,8 +42,8 @@ const questions = [
     // * License: string
     type: "list",
     name: "license",
-    message: "Enter LICENSE information:",
-    choices: ["BSD", "MIT", "GPL","Other", "No License"],
+    message: "Choose LICENSE information:",
+    choices: ["BSD", "MIT", "GPL", "No License"],
   },
   {
     // * Contributing: array

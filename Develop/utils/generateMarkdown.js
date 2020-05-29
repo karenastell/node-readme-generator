@@ -1,10 +1,12 @@
 const fs = require("fs");
 
+
 function generateMarkdown(answers) {
-// set the answers to a variable  
+// set the answers to a variable
 let info =  `
+![badge](${answers.badge})
 # ${answers.title}
-# ${answers.badge}
+
 
 # Table of contents:
 * [Description](#description)
@@ -43,7 +45,7 @@ let info =  `
 # Contact Information:
 
 
- [!myImage](${answers.githubPic})
+ ![myImage](${answers.githubPic})
 
 
  ## Email: <${answers.email}>
