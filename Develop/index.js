@@ -1,9 +1,7 @@
-// npm init
-
 // includes inquirer package
 const inquirer = require("inquirer");
-// includes fs package
-const fs = require("fs");
+// // includes fs package
+// const fs = require("fs");
 // includes the generateMarkdown function from generateMarkdown.js
 const generateMarkdown = require("./utils/generateMarkdown");
 
@@ -27,13 +25,7 @@ const questions = [
     name: "description",
     message: "Enter a DESCRIPTION of your project:",
   },
-  // {
-  //   // * Table of Contents:
-  //   type: "checkbox",
-  //   name: "contents",
-  //   message: "Choose your TABLE OF CONTENTS:",
-  //   choices: [1, 2, 3, 4]
-  // },
+  
   {
     // * Installation: string
     type: "input",
@@ -80,14 +72,14 @@ const questions = [
 ];
 
 // where to save the file
-const writeFile = (fileName, data)=>{
-  fs.writeFile(fileName, generateMarkdown(data), (err)=> {
-  if (err) {
-    throw err;
-  }
-  console.log("file saved to README");
-})
-}
+// function writeFile(fileName, data){
+//   fs.writeFile(fileName, generateMarkdown(data), (err)=> {
+//   if (err) {
+//     throw err;
+//   }
+//   console.log("file saved to README");
+// })
+// }
 
 // create a file with name fileName
 // writeto file fileName the data
@@ -96,8 +88,9 @@ function init() {
   // initialize the prompting of questions
   inquirer.prompt(questions).then((answers) => {
     console.log(answers);
+    generateMarkdown(answers);
   });
-  writeFile("README.md", answers);
+  // writeFile('README.md', answers);
 }
 
 init();
