@@ -2,12 +2,21 @@
 
 // includes inquirer package
 const inquirer = require("inquirer");
+// includes fs package
+const fs = require("fs");
+// includes the generateMarkdown function from generateMarkdown.js
+const generateMarkdown = require("./utils/generateMarkdown");
 
-// The user will be prompted for their GitHub username and other information pertaining to the project the README is for.
 
-// const questions = [
   // array of questions
-  inquirer.prompt([
+  const questions =[
+    {
+      //badge
+      type: "input",
+      name: "badge",
+      message: "Enter a BADGE:"
+
+    },
     {
       // * Project title
       type: "input",
@@ -45,9 +54,10 @@ const inquirer = require("inquirer");
     },
     {
       // * License: string
-      type: "input",
+      type: "list",
       name: "license",
       message: "Enter LICENSE information:",
+      choices: ["BSD", "MIT", "GPL", "No License"]
       
     },
     {
@@ -73,18 +83,35 @@ const inquirer = require("inquirer");
       message: "Upload your GITHUB PROFILE PICTURE and enter your GITHUB EMAIL:",
      
     }
-  ]).then((answers)=>{
-  console.log("TITLE", answers.title);
-})
+  ]
+//   .then((answers)=>{
+//   console.log("TITLE", answers.title);
+// })
 
-function writeToFile(fileName, data) {
+// fs.writeFile("person.html", html, (error) => {
+//     if (error) {
+//         console.error(error);
+//     }
+
+//     console.log("File saved successfully!");
+// })
+
   // where to save the file
+  // fs.writeFile("README.md", questions, (err)=> {
+  //   if (err) {
+  //     throw err;
+  //   }
+  //   console.log("file saved to README");
+  // })
   // create a file with name fileName
   // writeto file fileName the data
-}
+
 
 function init() {
-  // initialize stuff that I need here
+  // initialize the prompting of questions
+  inquirer.prompt(questions).then((answers)=>{
+    console.log(answers);
+  })
 }
 
-// init();
+init();
