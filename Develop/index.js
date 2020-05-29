@@ -71,26 +71,15 @@ const questions = [
   },
 ];
 
-// where to save the file
-// function writeFile(fileName, data){
-//   fs.writeFile(fileName, generateMarkdown(data), (err)=> {
-//   if (err) {
-//     throw err;
-//   }
-//   console.log("file saved to README");
-// })
-// }
-
-// create a file with name fileName
-// writeto file fileName the data
 
 function init() {
   // initialize the prompting of questions
   inquirer.prompt(questions).then((answers) => {
     console.log(answers);
+    // using the answers from the questions array, populate the fields using the generateMarkdown function
     generateMarkdown(answers);
   });
-  // writeFile('README.md', answers);
+
 }
 
 init();
