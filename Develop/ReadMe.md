@@ -1,8 +1,8 @@
 
-# title
-# badge
+# My Title
+# My Badge
 
-Table of contents:
+##Table of contents:
 (#Description)
 (#Install Instructions)
 (#Usage Instructions)
@@ -11,14 +11,20 @@ Table of contents:
 (#Tests)
 (#Contact Information)
 
-# description
-# install
-# usage
-# MIT
-# contrib
-# test
+#Description 
+My description
+#Install Instructions
+# the install instcuts
+#Usage Instructions
+# the usage instructions
+#License
+# Other
+#Contributors
+# nope
+#Tests
+# no tests
 
-#
-# pic
-# email
+#Contact Information
+# my pic
+# karen@gmail.com
 
