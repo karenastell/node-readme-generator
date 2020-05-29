@@ -6,7 +6,7 @@ let info =  `
 # ${answers.title}
 # ${answers.badge}
 
-##Table of contents:
+## Table of contents:
 (#Description)
 (#Install Instructions)
 (#Usage Instructions)
@@ -15,20 +15,20 @@ let info =  `
 (#Tests)
 (#Contact Information)
 
-#Description 
-${answers.description}
-#Install Instructions
+# Description 
+# ${answers.description}
+# Install Instructions
 # ${answers.install}
-#Usage Instructions
+# Usage Instructions
 # ${answers.usage}
-#License
+# License
 # ${answers.license}
-#Contributors
+# Contributors
 # ${answers.contributors}
-#Tests
+# Tests
 # ${answers.test}
 
-#Contact Information
+# Contact Information
 # ${answers.githubPic}
 # ${answers.email}
 
