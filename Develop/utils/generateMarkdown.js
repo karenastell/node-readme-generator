@@ -7,13 +7,13 @@ let info =  `
 # ${answers.badge}
 
 # Table of contents:
-* [Description]
-* [Install Instructions]
-* [Usage Instructions]
-* [License]
-* [Contributors]
-* [Tests]
-* [Contact Information](#Contact-Information)
+* [Description](#description)
+* [Install Instructions](#install-instructions)
+* [Usage Instructions](#usage-instructions)
+* [License](#license)
+* [Contributors](#contributors)
+* [Tests](#tests)
+* [Contact Information](#contact-information)
 
 # Description:
 ### ${answers.description}

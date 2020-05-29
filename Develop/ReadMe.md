@@ -2,29 +2,29 @@
 # my title
 # my badge
 
-## Table of contents:
-(#Description)
-(#Install Instructions)
-(#Usage Instructions)
-(#License)
-(#Contributors)
-(#Tests)
-(#Contact Information)
+# Table of contents:
+* [Description](#description)
+* [Install Instructions](#install-instructions)
+* [Usage Instructions](#usage-instructions)
+* [License](#license)
+* [Contributors](#contributors)
+* [Tests](#tests)
+* [Contact Information](#contact-information)
 
-# Description 
-# my description
-# Install Instructions
-# my install
-# Usage Instructions
-# my use
-# License
-# BSD
-# Contributors
-# my contrib
-# Tests
-# my test
+# Description:
+### my desc
+# Install Instructions:
+### my install
+# Usage Instructions:
+### my use
+# License:
+### BSD
+# Contributors:
+### my contr
+# Tests:
+### my test
 
-# Contact Information
-# my pic
-# my email
+# Contact Information:
+### my pic
+### my email
 
