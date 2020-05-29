@@ -16,21 +16,35 @@ let info =  `
 * [Contact Information](#contact-information)
 
 # Description:
-### ${answers.description}
+
+
+ ${answers.description}
 # Install Instructions:
-### ${answers.install}
+
+
+ ${answers.install}
 # Usage Instructions:
-### ${answers.usage}
+
+
+ ${answers.usage}
 # License:
-### ${answers.license}
+
+
+ ${answers.license}
 # Contributors:
-### ${answers.contributors}
+
+
+ ${answers.contributors}
 # Tests:
-### ${answers.test}
+
+
+ ${answers.test}
 
 # Contact Information:
-### ${answers.githubPic}
-### ${answers.email}
+
+
+ ${answers.githubPic}
+ <${answers.email}>
 
 `;
 

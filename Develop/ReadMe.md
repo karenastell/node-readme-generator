@@ -12,19 +12,33 @@
 * [Contact Information](#contact-information)
 
 # Description:
-### my desc
+
+
+ my descri
 # Install Instructions:
-### my install
+
+
+ my insta
 # Usage Instructions:
-### my use
+
+
+ my use
 # License:
-### BSD
+
+
+ BSD
 # Contributors:
-### my contr
+
+
+ my cont
 # Tests:
-### my test
+
+
+ my test
 
 # Contact Information:
-### my pic
-### my email
+
+
+ my pic
+ <karen@karen.com>
 
