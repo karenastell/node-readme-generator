@@ -43,8 +43,10 @@ let info =  `
 # Contact Information:
 
 
- ${answers.githubPic}
- <${answers.email}>
+ [!myImage](${answers.githubPic})
+
+
+ ## Email: <${answers.email}>
 
 `;
 

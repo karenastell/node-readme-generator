@@ -1,6 +1,6 @@
 
-# my title
-# my badge
+# my ttile
+# badge
 
 # Table of contents:
 * [Description](#description)
@@ -14,15 +14,15 @@
 # Description:
 
 
- my descri
+ my
 # Install Instructions:
 
 
- my insta
+ inasf
 # Usage Instructions:
 
 
- my use
+ asf
 # License:
 
 
@@ -30,15 +30,17 @@
 # Contributors:
 
 
- my cont
+ afss
 # Tests:
 
 
- my test
+ est
 
 # Contact Information:
 
 
- my pic
- <karen@karen.com>
+ [!myImage](https://avatars3.githubusercontent.com/u/60358028?s=460&u=a19dca322b378b635d636a589b1a575ed9c19c9f&v=4)
+
+
+ ## Email: <karen@gmail.com>
 
