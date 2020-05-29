@@ -1,8 +1,8 @@
 
-# My Title
-# My Badge
+# my title
+# my badge
 
-##Table of contents:
+## Table of contents:
 (#Description)
 (#Install Instructions)
 (#Usage Instructions)
@@ -11,20 +11,20 @@
 (#Tests)
 (#Contact Information)
 
-#Description 
-My description
-#Install Instructions
-# the install instcuts
-#Usage Instructions
-# the usage instructions
-#License
-# Other
-#Contributors
-# nope
-#Tests
-# no tests
+# Description 
+# my description
+# Install Instructions
+# my install
+# Usage Instructions
+# my use
+# License
+# BSD
+# Contributors
+# my contrib
+# Tests
+# my test
 
-#Contact Information
+# Contact Information
 # my pic
-# karen@gmail.com
+# my email
 
