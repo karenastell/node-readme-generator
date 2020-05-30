@@ -12,7 +12,7 @@ To use this app you must install the dependencies by running `npm install` then 
 ## Screenshots
 
 ### Answers Array
-![array](images/array-of-answer.png)
+![array](images/array-of-answers.png)
 
 ### Confirmation of Saved File
 ![saved-file](images/file-saved.png)
