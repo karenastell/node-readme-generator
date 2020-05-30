@@ -1,7 +1,5 @@
 // includes inquirer package
 const inquirer = require("inquirer");
-// // includes fs package
-// const fs = require("fs");
 // includes the generateMarkdown function from generateMarkdown.js
 const generateMarkdown = require("./utils/generateMarkdown");
 

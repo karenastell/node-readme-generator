@@ -45,7 +45,7 @@ let info =  `
 # Contact Information:
 
 
- ![myImage](${answers.githubPic})
+![myImage](${answers.githubPic})
 
 
  ## Email: <${answers.email}>

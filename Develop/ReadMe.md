@@ -15,32 +15,32 @@
 # Description:
 
 
- This is an app that is awesome and does awesome things.
+ An Awesome App that does awesome things!
 # Install Instructions:
 
 
- Just open it up.
+ no installation, just be awesome!
 # Usage Instructions:
 
 
- Use whenever you want to be awesome.
+ use it to be awesome
 # License:
 
 
- MIT
+ No License
 # Contributors:
 
 
- I did this on my own!
+ just me, Karen!
 # Tests:
 
 
- All of the awesome ones.
+ all the awesome tests
 
 # Contact Information:
 
 
- ![myImage](https://avatars3.githubusercontent.com/u/60358028?s=460&u=a19dca322b378b635d636a589b1a575ed9c19c9f&v=4)
+![myImage](https://avatars3.githubusercontent.com/u/60358028?s=460&u=a19dca322b378b635d636a589b1a575ed9c19c9f&v=4)
 
 
  ## Email: <karenastell@gmail.com>
