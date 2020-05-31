@@ -9,7 +9,7 @@ const questions = [
     //badge
     type: "input",
     name: "badge",
-    message: "Enter a BADGE:",
+    message: "Enter a BADGE URL:",
   },
   {
     // * Project title
