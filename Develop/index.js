@@ -76,7 +76,7 @@ function init() {
     console.log(answers);
     // using the answers from the questions array, populate the fields using the generateMarkdown function
     generateMarkdown(answers);
-  });
+  }).catch();
 
 }
 
